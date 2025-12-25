@@ -71,4 +71,5 @@ app.all('*', (req, res, next) => {
 // ERROR HANDLING MIDDLEWARE  => it takes 4 parameters...
 app.use(globalErrorHandler);
 
+// export it
 module.exports = app;
